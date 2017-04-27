@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/palered</item>
+        <item name="colorPrimaryDark">@color/palered</item>
+        <item name="colorAccent">@color/black</item>
+    </style>="@android:style/Animation"
+    <style name="mypopwindow_anim_style">
+
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="textsize1">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

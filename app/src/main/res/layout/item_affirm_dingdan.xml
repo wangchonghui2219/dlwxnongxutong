@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/icon_dddianpu"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/tv_dianjianame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="猪饲料服务中心"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <com.example.administrator.dlwxnongxutong.views.NoListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_product"
+        ></com.example.administrator.dlwxnongxutong.views.NoListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_distype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selete_cleck_color"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_freight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运费："
+            android:textColor="@color/textcolor"
+            />
+        <TextView
+            android:id="@+id/tv_isbaoyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="包邮"
+            android:textColor="@color/textcolor"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cut_off_rule"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="买家留言："
+            android:textColor="@color/textcolor"
+            />
+        <EditText
+
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="选填，对本次交易的说明"
+            android:textSize="13sp"
+            android:background="@null"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cut_off_rule"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:id="@+id/tv_zongshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共一件商品,合计："
+                />
+            <TextView
+                android:id="@+id/tv_zongjia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:text="￥126.00"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

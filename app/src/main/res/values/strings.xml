@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">农牧通</string>
+    <string name="daohang_shouye">首页</string>
+    <string name="daohang_shangcheng">商城</string>
+    <string name="daohang_yonghu">用户信息</string>
+    <string name="daohang_shopingcat">购物车</string>
+    <string name="zongshu">合计:</string>
+
+    <!--测试使用数据-->
+    <string name="name">动力无限</string>
+    <string name="address">河南省郑州市金水区花园路东风路安华大厦1506</string>
+</resources>

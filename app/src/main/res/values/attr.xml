@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColourLineView"
+
+        >
+
+        <attr name="line_height" format="dimension"/>
+        <attr name="item_width" format="dimension"/>
+        <attr name="separation_width" format="dimension"/>
+        <attr name="lean_degree" format="dimension"/>
+        <attr name="first_color" format="dimension"/>
+        <attr name="second_color" format="dimension"/>
+        <attr name="canvas_color" format="dimension"/>
+        </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

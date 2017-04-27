@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.dlwxnongxutong.activitys.TiXIanDetailsActivity">
+    <include
+        layout="@layout/title_bar"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10_dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交易订单"
+            android:textSize="@dimen/dimen_20_dip"
+            android:textColor="@color/textcolor"
+
+            />
+        <TextView
+            android:id="@+id/tv_orderno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/dimen_20_dip"
+            />
+    </RelativeLayout>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10_dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交易方式"
+            android:textSize="@dimen/dimen_20_dip"
+            android:textColor="@color/textcolor"
+
+            />
+        <TextView
+            android:id="@+id/tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/dimen_20_dip"
+            />
+    </RelativeLayout>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10_dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交易时间"
+            android:textSize="@dimen/dimen_20_dip"
+            android:textColor="@color/textcolor"
+
+            />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/dimen_20_dip"
+            />
+    </RelativeLayout>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10_dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余额"
+            android:textSize="@dimen/dimen_20_dip"
+            android:textColor="@color/textcolor"
+
+            />
+        <TextView
+            android:id="@+id/tv_flprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/dimen_20_dip"
+            />
+    </RelativeLayout>
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10_dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户余额"
+            android:textSize="@dimen/dimen_20_dip"
+            android:textColor="@color/textcolor"
+
+            />
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/dimen_20_dip"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改头像"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cut_off_rule"
+
+        />
+       <LinearLayout
+           android:id="@+id/ll_photoalbum"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           >
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@mipmap/icon_grtu"
+               />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="相册"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+       </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cut_off_rule"
+
+        />
+    <LinearLayout
+        android:id="@+id/ll_photograph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/icon_grpai"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="拍照"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+</LinearLayout>
